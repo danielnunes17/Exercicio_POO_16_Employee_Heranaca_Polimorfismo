@@ -1,12 +1,10 @@
 ﻿namespace Exercicio_POO_16_Employee_Heranaca_Polimorfismo.Entities
 {
-    class Employee
+    public class Employee
     {
         public string Name { get; set; }
         public int Hour { get; set; }
         public double VeluePerHours { get; set; }
-
-        public Employee() { }
 
         public Employee(string name, int hour, double veluePerHours)
         {
